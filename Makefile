@@ -10,7 +10,7 @@ COMPILER_FLAGS = -Wall -std=c++11 -g
 
 INCLUDE_FLAGS = `sdl2-config --cflags` -I$(SRC)/
 
-LINKER_FLAGS = `sdl2-config --libs` -lSDL2_image
+LINKER_FLAGS = `sdl2-config --libs`
 
 SOURCES := $(wildcard $(SRC)/*.cpp)
 LINKS := $(wildcard $(SRC)/*.h)
